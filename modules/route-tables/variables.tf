@@ -1,0 +1,19 @@
+variable "vpc_id" {
+  type = string
+}
+
+variable "igw_id" {
+  type = string
+}
+
+variable "public_subnets" {
+  type = list(string)
+}
+
+variable "private_subnets" {
+  type = list(string)
+}
+
+variable "data_subnets" {
+  type = list(string)
+}
